@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="H1">
+    <item name="android:fontFamily">@font/sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">34sp</item>
+    <item name="android:letterSpacing">-0.04</item>
+  </style>
+
+  <style name="H2">
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:letterSpacing">0.01</item>
+    <item name="android:lineSpacingExtra">4sp</item>
+  </style>
+
+  <style name="Body1">
+    <item name="android:fontFamily">@font/sf_pro_text</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:letterSpacing">-0.04</item>
+  </style>
+
+  <style name="Subtitle">
+    <item name="android:fontFamily">@font/sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:letterSpacing">-0.04</item>
+  </style>
+
+  <style name="Body2">
+    <item name="android:fontFamily">@font/sf_pro_text_semibold</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:letterSpacing">-0.04</item>
+  </style>
+
+<!--  <style name="Button">
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:letterSpacing">0.09</item>
+    <item name="android:lineSpacingExtra">2sp</item>
+  </style>-->
+
+  <style name="Body3">
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:letterSpacing">0.02</item>
+    <item name="android:lineSpacingExtra">6sp</item>
+  </style>
+
+  <style name="Caption">
+    <item name="android:fontFamily">@font/sf_pro_text_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">12sp</item>
+  </style>
+</resources>

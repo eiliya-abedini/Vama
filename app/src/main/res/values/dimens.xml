@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="spacing_xxs">4dp</dimen>
+    <dimen name="spacing_2_xxs">8dp</dimen>
+    <dimen name="spacing_3_xxs">12dp</dimen>
+    <dimen name="spacing_4_xxs">16dp</dimen>
+    <dimen name="spacing_5_xxs">20dp</dimen>
+    <dimen name="spacing_6_xxs">24dp</dimen>
+    <dimen name="button_radius">10dp</dimen>
+    <dimen name="album_tile_radius">@dimen/spacing_4_xxs</dimen>
+    <dimen name="genre_item_radius">1000dp</dimen>
+</resources>

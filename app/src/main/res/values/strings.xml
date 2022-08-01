@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vama</string>
+    <string name="top_100_albums">Top 100 Albums</string>
+    <string name="try_again">Try Again</string>
+    <string name="visit_the_album">Visit The Album</string>
+    <string name="released">Released %s</string>
+</resources>
