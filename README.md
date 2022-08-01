@@ -22,7 +22,7 @@ The app cache data offline by **Realm** database and can work when it is offline
   communicating with IO threat
 
 **MVVM** architecture has been used for the architecture of the application, which the graph of dependency is like this:
-![Screenshot](Architecture.png)
+
 ```mermaid
 
 graph TD;
