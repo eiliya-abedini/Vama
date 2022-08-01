@@ -2,7 +2,9 @@ package com.vama.eiliyaabedini.di
 
 import com.vama.eiliyaabedini.data.local.LocalMusicAlbumService
 import com.vama.eiliyaabedini.data.local.LocalMusicAlbumServiceImpl
+import com.vama.eiliyaabedini.data.local.MusicAlbumDataSource
 import com.vama.eiliyaabedini.data.local.MusicAlbumDataSourceImpl
+import com.vama.eiliyaabedini.data.local.mapper.LocalMusicAlbumsMapper
 import com.vama.eiliyaabedini.data.local.mapper.LocalMusicAlbumsMapperImpl
 import com.vama.eiliyaabedini.data.local.model.AlbumEntity
 import com.vama.eiliyaabedini.data.local.model.GenreEntity
@@ -24,7 +26,7 @@ val dataModule = module {
 
     factoryOf(::LocalMusicAlbumServiceImpl) { bind<LocalMusicAlbumService>() }
 
-    factoryOf(::LocalMusicAlbumsMapperImpl)
+    factoryOf(::LocalMusicAlbumsMapperImpl) { bind<LocalMusicAlbumsMapper>() }
 
-    factoryOf(::MusicAlbumDataSourceImpl)
+    factoryOf(::MusicAlbumDataSourceImpl) { bind<MusicAlbumDataSource>() }
 }
