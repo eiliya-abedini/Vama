@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
+import com.vama.eiliyaabedini.R
 import com.vama.eiliyaabedini.databinding.ListItemAlbumBinding
 import com.vama.eiliyaabedini.domain.model.Album
 
@@ -15,7 +16,16 @@ class MusicAlbumAdapter : ListAdapter<Album, RecyclerView.ViewHolder>(AlbumDiffC
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val binding = ListItemAlbumBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        binding.scaleItemSize(parent)
         return MusicAlbumViewHolder(binding)
+    }
+
+    private fun ListItemAlbumBinding.scaleItemSize(parent: ViewGroup) {
+        val itemSize = (parent.measuredWidth - parent.context.resources.getDimensionPixelSize(R.dimen.spacing_6_xxs)) / 2
+        container.layoutParams.apply {
+            width = itemSize
+            height = itemSize
+        }
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {

@@ -57,11 +57,9 @@ There are some notes regarding the Design:
 
 - We don't have blur action bar in android so I just used the simple toolbar
 - For Grid view there is no description that if the image should have fixed size or based on the phone width they should
-  scale so I just used the fixed size as the design that may broke the look in different phone sizes (but it can be also
-  scale based on the phone size)
+  scale so I did a fix to scale the items based on device width otherwise it would broke on different devices
 - Also almost same problem in detail page, there is not description if image should be 1x1 and the rest for detail or should
   have fixed height and scale the image so I just used 1x1 scale for image
 - Another thing regarding design is the alignment of the copy right and button, it's not very clear if there should have
   some space from the genre items or they should be aligned from the bottom, So I just align them from the bottom but it may
   broke in devices with small height and we have some data overlapped
-- 

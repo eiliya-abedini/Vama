@@ -5,9 +5,9 @@
     android:id="@+id/container"
     android:layout_width="173dp"
     android:layout_height="173dp"
-    android:layout_marginStart="@dimen/spacing_4_xxs"
+    android:layout_marginStart="@dimen/spacing_2_xxs"
     android:layout_marginTop="@dimen/spacing_3_xxs"
-    android:layout_marginEnd="@dimen/spacing_4_xxs"
+    android:layout_marginEnd="@dimen/spacing_xxs"
     app:cardCornerRadius="@dimen/album_tile_radius"
     app:cardElevation="0dp"
     app:cardUseCompatPadding="false">
